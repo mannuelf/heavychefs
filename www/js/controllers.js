@@ -33,8 +33,8 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
+.controller('TalksCtrl', function($scope) {
+  $scope.talks = [
     { title: 'Development', id: 1 },
     { title: 'Media', id: 2 },
     { title: 'SEO', id: 3 },
@@ -44,5 +44,5 @@ angular.module('starter.controllers', [])
   ];
 })
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+.controller('TalksCtrl', function($scope, $stateParams) {
 });
