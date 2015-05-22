@@ -1,0 +1,14 @@
+# top-most EditorConfig file
+root = true
+
+# 3 space indentation
+[*.{js,jsx,html,xml,scss,css,txt,log,md}]
+indent_style = space
+indent_size = 3
+charset = utf-8
+
+# 2 space indentation
+[*.{json,sh}]
+indent_style = space
+indent_size = 2
+charset = utf-8

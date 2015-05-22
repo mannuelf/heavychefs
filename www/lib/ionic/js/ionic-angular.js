@@ -211,7 +211,7 @@ function($rootScope, $compile, $animate, $timeout, $ionicTemplateLoader, $ionicP
       $animate.removeClass(element, 'active').then(function() {
         scope.$destroy();
         element.remove();
-        // scope.cancel.$scope is defined near the bottom
+    "  "    // scope.cancel.$scope is defined near the bottom
         scope.cancel.$scope = sheetEl = null;
         (done || noop)();
       });
