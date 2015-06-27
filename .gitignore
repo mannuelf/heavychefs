@@ -1,6 +1,7 @@
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
+heavychef-8148c43f7e52.json
 .idea/
 node_modules/
 platforms/

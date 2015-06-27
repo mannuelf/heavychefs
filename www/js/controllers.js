@@ -25,6 +25,25 @@ angular.module('starter.controllers', [])
   $scope.doLogin = function() {
     console.log('Doing login', $scope.loginData);
 
+     var clientId = '503911641847-tlpt59ndek9c3aubq2bhpe9p0t3bjeir.apps.googleusercontent.com';
+     var apiKey = '';
+     var scopes = '';
+
+     function handleClientLoad() {
+        gapi.client.setApiKey(apiKey);
+        window.setTimeout(checkAuth,1);
+     }
+
+     function checkAuth() {
+        gapi.auth.authorize({client_id: clientId, scope: scopes, immediate: true}, handleAuthResult);
+        return false;
+     }
+
+     function makeApisCall(){
+        gapi.client
+     }
+
+
     // Simulate a login delay. Remove this and replace with your login
     // code if using a login system
     $timeout(function() {
