@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('starter.controllers', [])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
@@ -25,25 +27,6 @@ angular.module('starter.controllers', [])
   $scope.doLogin = function() {
     console.log('Doing login', $scope.loginData);
 
-     var clientId = '503911641847-tlpt59ndek9c3aubq2bhpe9p0t3bjeir.apps.googleusercontent.com';
-     var apiKey = '';
-     var scopes = '';
-
-     function handleClientLoad() {
-        gapi.client.setApiKey(apiKey);
-        window.setTimeout(checkAuth,1);
-     }
-
-     function checkAuth() {
-        gapi.auth.authorize({client_id: clientId, scope: scopes, immediate: true}, handleAuthResult);
-        return false;
-     }
-
-     function makeApisCall(){
-        gapi.client
-     }
-
-
     // Simulate a login delay. Remove this and replace with your login
     // code if using a login system
     $timeout(function() {
@@ -63,5 +46,17 @@ angular.module('starter.controllers', [])
   ];
 })
 
-.controller('TalksCtrl', function($scope, $stateParams) {
+
+.controller('TalksCardCtrl', function($scope, $stateParams, $http) {
+   $http.get('data/youtube.playlistItems.list.json').success(function(data) {
+      $scope.names = data.items;
+      $scope.id = data.id;
+      $scope.publishedAt = data.publishedAt;
+      $scope.$title = data.title;
+      $scope.description = data.description;
+      $scope.channelId = data.channelId;
+
+      console.log('channelId', channelId);
+      console.log('channelId', data.channelId);
+   });
 });

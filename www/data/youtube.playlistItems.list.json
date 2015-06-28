@@ -1,0 +1,216 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "\"Y3xTLFF3RLtHXX85JBgzzgp2Enw/2gHW0cT48xK-vuVjhNACn3Zo7QM\"",
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 83,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"Y3xTLFF3RLtHXX85JBgzzgp2Enw/M0T6PcEeURgAeTEr7g5RaT9yUHk\"",
+      "id": "UUG34mVcsMOAdUkCoZt-cxObMGDk-X5EDh",
+      "snippet": {
+        "publishedAt": "2015-06-04T13:23:37.000Z",
+        "channelId": "UC76PEy2NhiSx9PUnsAq-6NA",
+        "title": "Allan Knott-Craig Jr, How To Build A Mobile Social Network, Heavy Chef",
+        "description": "Alan Knott-Craig Jr, the CEO of Mxit - South Africa's largest mobile social network, was our featured speaker at the Heavy Chef event in March 2012.\n\nAlan enlightened the crowd of digital marketing enthusiasts and professionals, on the ins and outs of building a thriving mobile network and messaging service. On the future of Mxit, Alan says, \"We feel like we're on a rocket. Whether we blow up or land on the moon, at least we will be among the stars.\" \n\nConnect with Heavy Chef here: www.heavychef.com or catch up with us on Twitter, Facebook, Google+ & Linkedin. \n\nHeavy Chef, A World Wide Creative Initiative.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gi8HKEvZT2M/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gi8HKEvZT2M/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gi8HKEvZT2M/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gi8HKEvZT2M/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gi8HKEvZT2M/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Heavy Chef",
+        "playlistId": "UU76PEy2NhiSx9PUnsAq-6NA",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "gi8HKEvZT2M"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"Y3xTLFF3RLtHXX85JBgzzgp2Enw/ehSmgHzckAVLzRrn2koX15NVYuU\"",
+      "id": "UUG34mVcsMOAdFp4TLsPhYwY43-gsbvFms",
+      "snippet": {
+        "publishedAt": "2015-06-02T15:07:30.000Z",
+        "channelId": "UC76PEy2NhiSx9PUnsAq-6NA",
+        "title": "Andrew Smith, E-Commerce In South Africa, Heavy Chef",
+        "description": "Andrew Smith, co-founder of Yuppiechef - one of South Africa's biggest names in online retail headlined Heavy Chef's first session for 2013.\n\nSmith told the story of Yuppiechef's beginnings as an online store with no commercial backing and no brand, to the thriving e-commerce giant it has become. Press play, be inspired.\n\nConnect with Heavy Chef here: www.heavychef.com or catch up with us on Twitter, Facebook, Google+ & Linkedin. \n\nHeavy Chef, A World Wide Creative Initiative.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-qF_uus_qy8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-qF_uus_qy8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-qF_uus_qy8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-qF_uus_qy8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-qF_uus_qy8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Heavy Chef",
+        "playlistId": "UU76PEy2NhiSx9PUnsAq-6NA",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "-qF_uus_qy8"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"Y3xTLFF3RLtHXX85JBgzzgp2Enw/-_udhm9mWUufNkTZsP-6TqZfE7o\"",
+      "id": "UUG34mVcsMOAfZzjvKal6OkLyhlIjRwYz-",
+      "snippet": {
+        "publishedAt": "2015-06-02T12:53:59.000Z",
+        "channelId": "UC76PEy2NhiSx9PUnsAq-6NA",
+        "title": "Micheal Jordaan, How To Be An Innovation Leader In The Digital Age, Heavy Chef",
+        "description": "In August 2013, Heavy Chef hosted innovation leader and CEO of First National Bank, Michael Jordaan. His presentation focused on how FNB is leveraging digital as a tool for advancement and innovation in the banking sector. The talk also encompassed some of Jordaan's key learnings during this exciting phase of development.\n\nAccording to Jordaan, \"“If you don’t have a culture that recognizes that leadership doesn’t know everything, you cannot innovate.” Watch the video for more insights.\n\nConnect with Heavy Chef here: www.heavychef.com or catch up with us on Twitter, Facebook, Google+ & Linkedin. \n\nHeavy Chef, A World Wide Creative Initiative.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ElelaXiPjWo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ElelaXiPjWo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ElelaXiPjWo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Heavy Chef",
+        "playlistId": "UU76PEy2NhiSx9PUnsAq-6NA",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "ElelaXiPjWo"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"Y3xTLFF3RLtHXX85JBgzzgp2Enw/6ZeBeqWMAEgIHo7jYP91VfMjTEo\"",
+      "id": "UUG34mVcsMOAekjJ3US0ThVTITxmuVoy0x",
+      "snippet": {
+        "publishedAt": "2015-06-02T10:11:52.000Z",
+        "channelId": "UC76PEy2NhiSx9PUnsAq-6NA",
+        "title": "Shirley Wakefield, The Future Of Mobile In Africa, Heavy Chef",
+        "description": "Shirley Wakefield, CEO of Pondering Panda was the guest speaker at Heavy Chef in August 2012. Her presentation focused on mobile usage in Africa and provided the latest statistics and trend predictions on the future of this industry. \n\nAccording to Shirley, the six biggest markets in Africa are Nigeria, Egypt, South Africa, Algeria, Morocco and lastly Kenya. Watch the video to find out more.\n\nConnect with Heavy Chef here: www.heavychef.com or catch up with us on Twitter, Facebook, Google+ & Linkedin. \n\nHeavy Chef, A World Wide Creative Initiative.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_JEj5oNTwP4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_JEj5oNTwP4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_JEj5oNTwP4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/_JEj5oNTwP4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/_JEj5oNTwP4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Heavy Chef",
+        "playlistId": "UU76PEy2NhiSx9PUnsAq-6NA",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "_JEj5oNTwP4"
+        }
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"Y3xTLFF3RLtHXX85JBgzzgp2Enw/_kaQcmgjNF2M4siWK_rCWTiH_Sw\"",
+      "id": "UUG34mVcsMOAeiANq8WzHxqLb6lAx5TE9n",
+      "snippet": {
+        "publishedAt": "2015-05-22T14:30:01.000Z",
+        "channelId": "UC76PEy2NhiSx9PUnsAq-6NA",
+        "title": "Rand Fishkin, Trends In Search Marketing, Heavy Chef",
+        "description": "To kickstart 2013, Heavy Chef had the honour of hosting The Wizard of Moz aka. Rand Fishkin, who presented the latest trends in search marketing. \n\nProviding key insights into seo and other search marketing disciplines, Rand explained that \"search volume does not equal valuable visits. Content is only good when it is unique, targeted and remarkable.\" Learn more in this informative video. \n\nConnect with Heavy Chef here: www.heavychef.com or catch up with us on Twitter, Facebook, Google+ & Linkedin. \n\nHeavy Chef, A World Wide Creative Initiative",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Xve33XS6iTc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Xve33XS6iTc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Xve33XS6iTc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Heavy Chef",
+        "playlistId": "UU76PEy2NhiSx9PUnsAq-6NA",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Xve33XS6iTc"
+        }
+      }
+    }
+  ]
+}

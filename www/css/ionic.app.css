@@ -7595,5 +7595,20 @@ a.button {
 
 .logo-main {
   display: block;
-  width: 120px;
-  margin: 10px auto; }
+  width: 100px;
+  margin: 10px 8px; }
+
+.menu {
+  background-color: #EEE; }
+
+.talks .item.item-avatar {
+  margin-top: -90px;
+  border-right: 0;
+  background-color: transparent;
+  border: none; }
+  .talks .item.item-avatar > h2 {
+    font-weight: 800;
+    font-size: 1.4em;
+    color: white; }
+  .talks .item.item-avatar > p {
+    color: white; }
