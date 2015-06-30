@@ -2,7 +2,7 @@
 
 angular.module('starter.controllers', [])
 
-   .controller('AppCtrl', function ($scope, $ionicModal, $timeout) {
+   yourTube.controller('AppCtrl', function ($scope, $ionicModal, $timeout) {
       // Form data for the login modal
       $scope.loginData = {};
 
@@ -33,52 +33,45 @@ angular.module('starter.controllers', [])
             $scope.closeLogin();
          }, 1000);
       };
-   })
+   });
 
-   .controller('TalksCtrl', function ($scope) {
-      $scope.talks = [
-         {title: 'Development', id: 1},
-         {title: 'Media', id: 2},
-         {title: 'SEO', id: 3},
-         {title: 'Online Marketing', id: 4},
-         {title: 'Law', id: 5},
-         {title: 'Chat', id: 6}
-      ];
-   })
 
-   // SERVICE: get youtube data using Promises
-   heavychef.service('youTubeService', function ($http, $q) {
-
+   /*
+    * SERVICE: get youtube data using Promises
+    * https://docs.angularjs.org/api/ng/service/$q
+    */
+   yourTube.service('youTubeService', function ($http, $q) {
       var deferred = $q.defer();
-
       $http.get('data/youtube.playlistItems.list.json').then(function (data) {
-
          deferred.resolve(data);
-
       });
 
-      this.getItems = function () {
+      this.fetchMyData = function () {
          return deferred.promise;
       }
+   });
 
-   })
+   // passing scope and youTubeService as parameters to the TalksCard Controller
+   yourTube.controller('TalksCardCtrl', function ($scope, youTubeService) {
 
-   .controller('TalksCardCtrl', function ($scope, youTubeService) {
-      var promise = youTubeService.getItems();
-      promise.then(function (data) {
-         $scope.items = data;
-         console.log($scope.items);
-      })
+         var promise = youTubeService.fetchMyData();
+
+         promise.then(function (data) {
+
+            $scope.items = data;
+
+            //window.scope = $scope;
+
+            console.log($scope.items);
+         });
    });
 
 
    // not using promises
-   /*
-   .controller('TalksCardCtrl', function ($scope, $stateParams, $http) {
-      $http.get('data/youtube.playlistItems.list.json').success(function (data) {
-         $scope.items = data.items;
-         console.log($scope.items);
-      });
 
-   });
-   */
+   //.controller('TalksCardCtrl', function ($scope, $stateParams, $http) {
+   //   $http.get('data/youtube.playlistItems.list.json').success(function (data) {
+   //      $scope.items = data.items;
+   //      console.log($scope.items);
+   //   });
+   //});

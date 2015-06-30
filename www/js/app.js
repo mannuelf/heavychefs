@@ -4,9 +4,10 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-var heavychef = angular.module('heavychef', ['ionic', 'starter.controllers'])
 
-   heavychef.run(function ($ionicPlatform) {
+var yourTube = angular.module('yourTube', ['ionic', 'starter.controllers'])
+
+   yourTube.run(function ($ionicPlatform) {
       $ionicPlatform.ready(function () {
          // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
          // for form inputs)
@@ -20,7 +21,7 @@ var heavychef = angular.module('heavychef', ['ionic', 'starter.controllers'])
       });
    });
 
-   heavychef.config(function ($stateProvider, $urlRouterProvider) {
+   yourTube.config(function ($stateProvider, $urlRouterProvider) {
       $stateProvider
 
          .state('app', {
@@ -53,7 +54,7 @@ var heavychef = angular.module('heavychef', ['ionic', 'starter.controllers'])
             views: {
                'menuContent': {
                   templateUrl: "templates/talks.html",
-                  controller: 'TalksCtrl'
+                  controller: 'TalksCardCtrl'
                }
             }
          })
@@ -67,6 +68,7 @@ var heavychef = angular.module('heavychef', ['ionic', 'starter.controllers'])
                }
             }
          });
+      
       // if none of the above states are matched, use this as the fallback
       $urlRouterProvider.otherwise('/app/talks');
    });
