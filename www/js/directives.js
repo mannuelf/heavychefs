@@ -11,7 +11,7 @@ heavychef.directive('TalksCardItem', function ($compile) {
 
 
 
-   }
+   };
 
    return {
       restricted: 'E',

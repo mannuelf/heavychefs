@@ -42,7 +42,20 @@ angular.module('starter.controllers', [])
     */
    yourTube.service('youTubeService', function ($http, $q) {
       var deferred = $q.defer();
+
       $http.get('data/youtube.playlistItems.list.json').then(function (data) {
+         deferred.resolve(data);
+      });
+
+      this.fetchMyData = function () {
+         return deferred.promise;
+      }
+   });
+
+   yourTube.service('userProfileService', function ($http, $q) {
+      var deferred = $q.defer();
+
+      $http.get('data/profiles.json').then(function (data) {
          deferred.resolve(data);
       });
 
@@ -53,18 +66,28 @@ angular.module('starter.controllers', [])
 
    // passing scope and youTubeService as parameters to the TalksCard Controller
    yourTube.controller('TalksCardCtrl', function ($scope, youTubeService) {
+      var promise = youTubeService.fetchMyData();
 
-         var promise = youTubeService.fetchMyData();
+      promise.then(function (data) {
+         $scope.items = data;
+         //window.scope = $scope;
 
-         promise.then(function (data) {
-
-            $scope.items = data;
-
-            //window.scope = $scope;
-
-            console.log($scope.items);
-         });
+         console.log($scope.items);
+      });
    });
+
+   yourTube.controller('UserProfile', function ($scope, userProfileService) {
+      var userProfiles = userProfileService.fetchMyData();
+
+      userProfiles.then(function (data) {
+         $scope.user = data;
+
+         console.log($scope.user);
+      });
+   });
+
+
+
 
 
    // not using promises
